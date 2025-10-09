@@ -1,0 +1,30 @@
+name: simple_dice_app
+description: A simple dice rolling app for Quiz 1 using Flutter on FlutLab.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/dise/dise 1.png
+    - assets/dise/dise 2.png
+    - assets/dise/dise 3.png
+    - assets/dise/dise 4.png
+    - assets/dise/dise 5.png
+    - assets/dise/dise 6.png
